@@ -1,0 +1,45 @@
+.Chat_Container {
+  width: 100%;
+  height: 72px;
+  background-color: transparent;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+}
+.Chat_Container:hover {
+  background-color: rgba(150, 150, 150, 0.2);
+}
+.Sidebar_header_left {
+  width: 10vw;
+  display: flex;
+  padding-left: 12px;
+}
+.Avatar {
+  height: 10px;
+  width: 10px;
+}
+.Message {
+  width: 90vw;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  border-style: groove;
+  border-color: rgb(140, 140, 140);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0.5px;
+  justify-content: center;
+}
+.Message > h1 {
+  color: white;
+  font-size: 17px;
+  font-weight: 100;
+}
+.Message > p {
+  color: #a8aaac;
+  font-size: 14px;
+  font-weight: 400;
+}
